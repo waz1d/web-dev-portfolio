@@ -1,0 +1,115 @@
+/* nicher dekano system a amra ekta desgin k code a convert korbo jodi ami chai content k vertcal borabor ba y borabor rakte thle ami use korbo align item tag abr ami jodi chai j ami horizontal borabor rakbo ba y borabor rakbo thle ami use korbo justify content jodi ami contant k space between korte thle space between select korbo */
+/* evabe font set korsi */
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+/* nav styles */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+/* evabe amra nav tag style korsi */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 150px;
+    
+}
+/* evabe ami  head tag ta style korsi */
+.Mary{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* evabe ami span tag ta style korsi */
+.r{
+    color:#FD6E0A;
+}
+/* eta ami nav er bitore ul er bitore li gula style korsi */
+nav ul li{
+    list-style: none;
+    font-size:20px;
+    margin-right: 51px;
+}
+/* trpr nav er bitore ul bitore li er bitore a k evabe style korsi */
+nav ul li a{
+    text-decoration: none;
+}
+/* text color design korbo evabe */
+.Dark{
+    color: #474747;
+}
+/* amra btn design korbo evabe */
+.btn{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    padding: 20px 35px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+/* banner design */
+/* eta ami style korsi ditiyo div tar h4 ta style korar jnno */
+.banner-greetings{
+    font-weight:700;
+    font-size: 45px ;
+    color: #474747;
+}
+/* eta ami style korsi ditiyo div tar h1 style korar jnno */
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+/* eta ami style korsi p tag tar style korar jnno */
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* eta ami style korsi pic tar width set korar jnno */
+.banner-pic{
+    width: 585px;
+}
+/* eta ami style korsi protom div tar margin o content gula ek line e korar jnno */
+.banner{
+    display: flex;
+    margin: 0 35px 0 150px;
+}
+/* eta style korsi ditoyo div tar width set korar jnno */
+.banner-content{
+    width: 585px;
+}
+/* eta style korsi protom div tar content dui pashe korar jonno */
+.banner{
+    justify-content: space-between;
+}
+.header{
+    background-image: url("../images/developer.png") ,url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
+.second{
+    background-color: #FFF8F3;
+}
+main{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+/* about  */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+.about-items .aboutbirthh{
+    font-weight: bold;
+}
