@@ -52,6 +52,7 @@ nav ul li a{
     color: white;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 /* banner design */
 /* eta ami style korsi ditiyo div tar h4 ta style korar jnno */
